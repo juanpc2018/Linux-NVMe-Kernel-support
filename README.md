@@ -179,12 +179,14 @@ how many small bugs are required to crash a system? </br>
 Ubuntu 17 has a unique libc.so.6 tied to kerner version, Not available in 16 Nor 18. </br>
 software designed for 17 does Not compile in any other, unless modified. </br>
 
-Ubuntu 18 was the last 32-Bit i386 .iso installers. </br>
+Ubuntu 18 was the last 32-Bit i386 .iso installer. </br>
 
 Ubuntu 24 installers are "Wayland" have viusual bugs on GTX 1050 Ti. </br>
+also has problems with Nvidia propietary drivers, removing/change driver also removes all other Realtek propietary drivers. </br>
+making the system off-line. </br>
 
 Ext4 v1.0 was changed to 64-bit "v2.0" around Ubuntu 16 making it backward incompatible. </br>
-XFS tools v6 in Ubuntu 24 changed, making it partially backward incompatible with Ubuntu 20. xfs toools v5.x </br>
+XFS tools v6 in Ubuntu 24 changed, making it partially backward incompatible with xfs toools v5.x </br>
 
 Awesome vintage wallpapers / art are Not included in Newer versions. </br>
 
