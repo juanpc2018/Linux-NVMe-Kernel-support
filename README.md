@@ -172,8 +172,9 @@ Releases, release date & included kernel  </br>
 [Ubuntu version history Table of versions](https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions)
 
 Ubuntu 13 has the [13th Curse](https://en.wikipedia.org/wiki/Triskaidekaphobia) </br>
-source code has small cosmic Ray bit-flip type bugs, that were never fixed 13 years later, </br>
-does Not stop working, but has issues, bugs seem to accumulate in next versions. </br>
+source code has small [cosmic Ray bit-flip type bugs](https://en.wikipedia.org/wiki/Soft_error) never fixed 13 years later </br>
+does Not stop working, but has issues, bugs seem to accumulate in following versions. </br>
+how many small bugs are required to crash a system? </br>
 
 Ubuntu 17 has a unique libc.so.6 tied to kerner version, Not available in 16 Nor 18. </br>
 software designed for 17 does Not compile in any other, unless modified. </br>
