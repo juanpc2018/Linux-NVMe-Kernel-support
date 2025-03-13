@@ -1,28 +1,35 @@
-# Linux-NVMe-Kernel-support
+# Linux NVMe Kernel support </br>
 
-https://web.archive.org/web/20200807033507/https://itpeernetwork.intel.com/nvm-express-linux-driver-support-decoded/#gs.i7y08b
-https://backports.docs.kernel.org/releases.html
-https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/
-https://lwn.net/Articles/driver-porting/
-https://backports.docs.kernel.org/
-https://github.com/torvalds/linux/tags?after=v2.6.15-rc5
+https://web.archive.org/web/20200807033507/https://itpeernetwork.intel.com/nvm-express-linux-driver-support-decoded/#gs.i7y08b </br>
+https://backports.docs.kernel.org/releases.html </br>
+https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/ </br>
+https://lwn.net/Articles/driver-porting/ </br>
+https://backports.docs.kernel.org/ </br>
+https://github.com/torvalds/linux/tags?after=v2.6.15-rc5 </br>
 
 ---------------------------
+![Tux1](https://github.com/user-attachments/assets/0980e18e-3c56-40e2-9176-e6f6758e29db)
+![NVMexpress21](https://github.com/user-attachments/assets/57871623-adb2-4fea-bf27-224574f6af76)
 
-NVM Express has enjoyed Linux kernel support since early 2011. However, it is a complex landscape to understand all of the Linux Server OS and kernel choices, including when particular features have been adopted. This blog is intended to decode your options for NVMe on Linux.
+NVM Express has enjoyed Linux kernel support since early 2011. However, it is a complex landscape to understand all of the Linux Server OS and kernel choices, including when particular features have been adopted. This blog is intended to decode your options for NVMe on Linux. </br>
 
-NVMe has been supported in the mainline upstream release of Linux since kernel 3.3. Check out the commit log message for NVMe, and you can pages of updates going back to 2011. The first distributions to support NVM Express focused on the add-in card form factor (without support for hot plug). A flavor of initial distribution support included:
+NVMe has been supported in the mainline upstream release of Linux since kernel 3.3. Check out the commit log message for NVMe, and you can pages of updates going back to 2011. The first distributions to support NVM Express focused on the add-in card form factor (without support for hot plug). A flavor of initial distribution support included: </br>
 
     Ubuntu version 12.10 in October 2012 with 3.5 kernel, long term support release February 2013
     Oracle Linux 6.4 in October 2013
     Red Hat Enterprise Linux 6.5 in November 2013
 
-To learn more about the initial Red Hat support, refer to: http://www.redhat.com/en/about/press-releases/red-hat-launches-latest-version-of-red-hat-enterprise-linux-6. In the past two years, Red Hat has matured and hardened their driver. Red Hat Enterprise Linux 6.7 Beta is fully featured, including hot plug support and hot boot capability.
+To learn more about the initial Red Hat support, refer to: http://www.redhat.com/en/about/press-releases/red-hat-launches-latest-version-of-red-hat-enterprise-linux-6. In the past two years, Red Hat has matured and hardened their driver. Red Hat Enterprise Linux 6.7 Beta is fully featured, including hot plug support and hot boot capability. </br>
 
-Linux kernel support and distributions have matured and hardened over the past two years. As an example, Red Hat Enterprise Linux 6.7 Beta is fully featured, including hot plug support and hot boot capability. Let’s look at the upstream kernel features in the NVMe driver and software stack that may be pertinent to your production deployment.
+Linux kernel support and distributions have matured and hardened over the past two years. As an example, Red Hat Enterprise Linux 6.7 Beta is fully featured, including hot plug support and hot boot capability. Let’s look at the upstream kernel features in the NVMe driver and software stack that may be pertinent to your production deployment. </br>
 
-Quick Reference Table: NVMe highlights and mainline kernel release support (*through May 2015)
-Feature/Kernel 	3.3 	3.6 	3.9 	3.10 	3.12 	3.14 	3.15 	3.16 	3.19 	4.0 	4.1
+Quick Reference Table: NVMe highlights and mainline kernel release support (*through May 2015) </br>
+
+![Chart](https://github.com/user-attachments/assets/de3435e2-b499-4cf7-9a9a-26551b5762d3)
+
+
+
+Feature/Kernel 	3.3 	3.6 	3.9 	3.10 	3.12 	3.14 	3.15 	3.16 	3.19 	4.0 	4.1 </br>
 high performance, NVMe 1.0 spec 	
 
 √
@@ -301,3 +308,5 @@ Here are links to blogs that cover other data center operating systems we work w
 VMware ESXi
 
 Microsoft Windows https://communities.intel.com/community/itpeernetwork/blog/2015/06/30/nvm-express-windows-driver-support-decoded
+
+![Linux-storage-stack-diagram_v4 10-e1575939041721](https://github.com/user-attachments/assets/1580c03f-3170-458f-997a-f7226be43938)
