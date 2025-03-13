@@ -32,213 +32,38 @@ Quick Reference Table: NVMe highlights and mainline kernel release support (*thr
 │Feature/Kernel │ 3.3 │	3.6 │ 3.9 │ 3.10 │ 3.12 │ 3.14 │ 3.15 │ 3.16 │ 3.19 │ 4.0 │	4.1 </br>
 │		┼</br>
 high performance, NVMe 1.0 spec 	</br>
-│	│</br>
-│√	│</br>
-├	┼	┤</br>
-│	│</br>
-│√	│</br>
-│	│</br>
-│	│</br>
-│√	│</br>
-│	│</br>
-│	│</br>
-│√</br>
-│	</br>│
-│	│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│	</br>
-│</br>
-│√</br>
-│Greater than 512byte LBA 		</br>
-│
-│√
-│	
-│
-│√
-│	
-│
-│√
-│	
-│
-│√
-│	
-│
-│√
-│	
-│
-│√
-│	
-│
-│√
-│	v 	
-│
-│√
-│	
-│
-│√
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│	│ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │</br>
+├───────┼───────┤</br>
+│Greater than 512byte LBA │ │ │ │ │ │ │ │ │ │ │ │ </br>
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
 │Discard/TRIM 			
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Disk stats – iostat
-
-BIO splitting
-				
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Power Management: Suspend/Resume 					
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Dynamic partitions
-
-Surprise removal
-
-Command Abort
-						
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Surprise removal
-
-Per-CPU and Optimizations
-							
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Trace Events 								
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Block-mq, and hot-plug finalization 									
-
-√
-	
-
-√
-	
-
-√
-Multipath NVMe 										
-
-√
-	
-
-√
-DIF/DIX & Metadata, hot-cpu 											
-
-√
-
-└─── ┴ ───────┘
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Disk stats – iostat
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│BIO splitting
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Power Management: Suspend/Resume 					
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Dynamic partitions
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Surprise removal
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Command Abort
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Surprise removal
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Per-CPU and Optimizations
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Trace Events 								
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Block-mq, and hot-plug finalization 									
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│Multipath NVMe 										
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+│DIF/DIX & Metadata, hot-cpu 											
+├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
+└───────┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴──┘
 
 It’s hard to document everything, and reading this table may be more than you need! If you want to view it differently we created this PDF slideshow for you here:
 
