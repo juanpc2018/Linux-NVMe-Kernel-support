@@ -15,7 +15,7 @@ NVM Express has enjoyed Linux kernel support since early 2011. However, it is a 
 
 NVMe has been supported in the mainline upstream release of Linux since kernel 3.3. Check out the commit log message for NVMe, and you can pages of updates going back to 2011. The first distributions to support NVM Express focused on the add-in card form factor (without support for hot plug). A flavor of initial distribution support included: </br>
 
-    Ubuntu version 12.10 in October 2012 with 3.5 kernel, long term support release February 2013
+    Ubuntu version 12.10 in October 2012 with 3.5 kernel,
     Oracle Linux 6.4 in October 2013
     Red Hat Enterprise Linux 6.5 in November 2013
 
