@@ -175,6 +175,7 @@ Ubuntu 13 has the [13th Curse](https://en.wikipedia.org/wiki/Triskaidekaphobia) 
 source code has small [cosmic Ray bit-flip type bugs](https://en.wikipedia.org/wiki/Soft_error) never fixed 13 years later </br>
 does Not stop working, but has issues, bugs seem to accumulate in following versions. </br>
 how many small bugs are required to crash a system? </br>
+incredible similar to [DNA Damage](https://en.wikipedia.org/wiki/DNA_damage_theory_of_aging) </br>
 
 Ubuntu 17 has a unique libc.so.6 tied to kerner version, Not available in 16 Nor 18. </br>
 software designed for 17 does Not compile in any other, unless modified. </br>
