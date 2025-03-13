@@ -106,51 +106,78 @@ Oracle Linux 7 Update 2 	TBA 	TBA </br>
 ----------------------------
 
 Ubuntu: </br>
-Ubuntu has a process of providing Long Term Support releases,  </br>
-Releases and their release date, included kernels  </br>
+Releases, release date & included kernel  </br>
 ````
-┌─────────────┬──────────────────┬────────────────┬────────┐
-│ Version:    │ Code Name:       │  Release date: │ Kernel │
-├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
-10.04 LTS	Lucid Lynx	2010-04-29
-10.10	Maverick Meerkat	2010-10-10
-11.04	Natty Narwhal	2011-04-28
-11.10	Oneiric Ocelot	2011-10-13
-│ 12.04 LTS   │ Precise Pangolin │     2012-04-26 │        │▒▒▒
-│ 12.10       │ Quantal Quetzal  │     2012-10-18 │        │▒▒▒
-│ 13.04       │ Raring Ringtail  │     2013-04-25 │        │▒▒▒
-│ 13.10       │ Saucy Salamander │     2013-10-17 │        │▒▒▒
-│ 14.04 LTS   │ Trusty Tahr      │     April 2014 │  3.13  │▒▒▒
-├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
-│ 14.04.1     │                  │      July 2014 │   3.13 │▒▒▒
-├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
-│ 14.04.2     │                  │  February 2015 │   3.16 │▒▒▒
-│ 14.10       │ Utopic Unicorn   │ 2014-10-23     │   3.16 │▒▒▒
-15.04	Vivid Vervet	2015-04-23
-15.10	Wily Werewolf	2015-10-22
-16.04 LTS	Xenial Xerus	2016-04-21
-16.10	Yakkety Yak	2016-10-13
-17.04	Zesty Zapus	2017-04-13
-17.10	Artful Aardvark	2017-10-19
-18.04 LTS	Bionic Beaver	2018-04-26
-18.10	Cosmic Cuttlefish	2018-10-18
-19.04	Disco Dingo	2019-04-18
-19.10	Eoan Ermine	2019-10-17
-20.04 LTS	Focal Fossa	2020-04-23
-20.10	Groovy Gorilla	2020-10-22
-21.04	Hirsute Hippo	2021-04-22
-21.10	Impish Indri	2021-10-14
-22.04 LTS	Jammy Jellyfish	2022-04-21
-22.10	Kinetic Kudu	2022-10-20
-23.04	Lunar Lobster	2023-04-20
-23.10	Mantic Minotaur	2023-10-12
-24.04 LTS	Noble Numbat	2024-04-25
-24.10	Oracular Oriole	2024-10-10
-25.04	Plucky Puffin	2025-04-17
-└─────────────┴──────────────────┴────────────────┴────────┘▒▒▒
-   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+┌─────────────┬───────────────────┬────────────┬────────┐
+│ Version:    │ Code Name:        │ Date:      │ Kernel │
+├─────────────┼───────────────────┼────────────┼────────┤▒▒▒
+│ 4.10        │ Warty Warthog     │ 2004-10-20 │        │▒▒▒
+│ 5.04        │ Hoary Hedgehog    │ 2005-04-08 │        │▒▒▒
+│ 5.10        │ Breezy Badger     │ 2005-10-12 │        │▒▒▒
+│ 6.06 LTS    │ Dapper Drake      │ 2006-06-01 │        │▒▒▒
+│ 6.10        │ Edgy Eft          │ 2006-10-26 │        │▒▒▒
+│ 7.04        │ Feisty Fawn       │ 2007-04-19 │        │▒▒▒
+│ 7.10        │ Gutsy Gibbon      │ 2007-10-18 │        │▒▒▒
+│ 8.04 LTS    │Hardy Heron        │ 2008-04-24 │        │▒▒▒
+│ 8.10        │ Intrepid Ibex     │ 2008-10-30 │        │▒▒▒
+│ 9.04        │ Jaunty Jackalope  │ 2009-04-23 │        │▒▒▒
+│ 9.10        │ Karmic Koala      │ 2009-10-29 │        │▒▒▒
+│ 10.04 LTS   │ Lucid Lynx        │ 2010-04-29 │        │▒▒▒
+│ 10.10       │ Maverick Meerkat  │ 2010-10-10 │        │▒▒▒
+│ 11.04       │ Natty Narwhal     │ 2011-04-28 │        │▒▒▒
+│ 11.10       │ Oneiric Ocelot    │ 2011-10-13 │        │▒▒▒
+│ 12.04 LTS   │ Precise Pangolin  │ 2012-04-26 │        │▒▒▒
+│ 12.10       │ Quantal Quetzal   │ 2012-10-18 │        │▒▒▒
+│ 13.04       │ Raring Ringtail   │ 2013-04-25 │        │▒▒▒
+│ 13.10       │ Saucy Salamander  │ 2013-10-17 │        │▒▒▒
+│ 14.04 LTS   │ Trusty Tahr       │ April 2014 │   3.13 │▒▒▒
+├─────────────┼───────────────────┼────────────┼────────┤▒▒▒
+│ 14.04.1     │                   │  July 2014 │   3.13 │▒▒▒
+├─────────────┼───────────────────┼────────────┼────────┤▒▒▒
+│ 14.04.2     │                   │ Feb   2015 │   3.16 │▒▒▒
+│ 14.10       │ Utopic Unicorn    │ 2014-10-23 │   3.16 │▒▒▒
+│ 15.04       │ Vivid Vervet      │ 2015-04-23 │        │▒▒▒
+│ 15.10       │ Wily Werewolf     │ 2015-10-22 │        │▒▒▒
+│ 16.04 LTS   │ Xenial Xerus      │ 2016-04-21 │        │▒▒▒
+│ 16.10       │ Yakkety Yak       │ 2016-10-13 │        │▒▒▒
+│ 17.04       │ Zesty Zapus       │ 2017-04-13 │        │▒▒▒
+│ 17.10       │ Artful Aardvark   │ 2017-10-19 │        │▒▒▒
+│ 18.04 LTS   │ Bionic Beaver     │ 2018-04-26 │        │▒▒▒
+│ 18.10       │ Cosmic Cuttlefish │ 2018-10-18 │        │▒▒▒
+│ 19.04       │ Disco Dingo       │ 2019-04-18 │        │▒▒▒
+│ 19.10       │ Eoan Ermine       │ 2019-10-17 │        │▒▒▒
+│ 20.04 LTS   │ Focal Fossa       │ 2020-04-23 │        │▒▒▒
+│ 20.10       │ Groovy Gorilla    │ 2020-10-22 │        │▒▒▒
+│ 21.04       │ Hirsute Hippo     │ 2021-04-22 │        │▒▒▒
+│ 21.10       │ Impish Indri      │ 2021-10-14 │        │▒▒▒
+│ 22.04 LTS   │ Jammy Jellyfish   │ 2022-04-21 │        │▒▒▒
+│ 22.10       │ Kinetic Kudu      │ 2022-10-20 │        │▒▒▒
+│ 23.04       │ Lunar Lobster     │ 2023-04-20 │        │▒▒▒
+│ 23.10       │ Mantic Minotaur   │ 2023-10-12 │        │▒▒▒
+│ 24.04 LTS   │ Noble Numbat      │ 2024-04-25 │        │▒▒▒
+│ 24.10       │ Oracular Oriole   │ 2024-10-10 │        │▒▒▒
+│ 25.04       │ Plucky Puffin     │ 2025-04-17 │        │▒▒▒
+└─────────────┴───────────────────┴────────────┴────────┘▒▒▒
+   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ````
 [Ubuntu version history Table of versions](https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions)
+
+Ubuntu 13 has the [13th Curse](https://en.wikipedia.org/wiki/Triskaidekaphobia) </br>
+there are small cosmic Ray bit-flip type bugs, that were never fixed 13 years later, </br>
+does Not stop working, but has issues, bugs seem to accumulate in next versions. </br>
+
+Ubuntu 17 has a unique libc.so.6 Not available in 16 Nor 18. </br>
+software compiled in 17 does Not compile in any other unless modified. </br>
+
+Ubuntu 18 was the last 32-Bit i386 .iso installers. </br>
+
+Ubuntu 24 installers are "Wayland" have viusual bugs on GTX 1050 Ti. </br>
+
+Ext4 v1.0 was changed to 64-bit "v2.0" around Ubuntu 16 making it backward incompatible. </br>
+XFS tools v6 in Ubuntu 24 changed, making it partially backward incompatible with Ubuntu 20. xfs toools v5.x </br>
+
+-------------------------------------
+
 
 SUSE Linux Enterprise Server (SLES 11 and 12) </br>
 SLES 11 SP3 which released in July 2014 has a kit for installing the high performing NVMe driver. Please use this link to gain access to that driver. </br>
