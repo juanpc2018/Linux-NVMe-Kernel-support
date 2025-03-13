@@ -182,7 +182,7 @@ software designed for 17 does Not compile in any other, unless modified. </br>
 
 Ubuntu 18 was the last 32-Bit i386 .iso installer. </br>
 
-Ubuntu 24 installers are "Wayland" have viusual bugs on GTX 1050 Ti. </br>
+Ubuntu 24 installers are "Wayland" have visual bugs on GTX 1050 Ti. </br>
 also has problems with Nvidia propietary drivers, removing/change driver also removes all other Realtek propietary drivers. </br>
 making the system off-line. </br>
 
