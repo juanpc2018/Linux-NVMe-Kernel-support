@@ -63,7 +63,7 @@ high performance, NVMe 1.0 spec │  │  │ │ │ │ │ │ │ │ │</b
 ├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
 │DIF/DIX & Metadata, hot-cpu 											
 ├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
-└───────┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴──┘
+└───────┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴──┘ </br>
 ´´´´ </br>
 
 It’s hard to document everything, and reading this table may be more than you need! If you want to view it differently we created this PDF slideshow for you here:
