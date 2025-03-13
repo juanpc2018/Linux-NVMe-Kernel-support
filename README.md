@@ -30,7 +30,7 @@ Quick Reference Table: NVMe highlights and mainline kernel release support (*thr
 
 ┌──────────────────────────┬─────────────────────────────────────────┐</br>
 │Feature/Kernel            │ 3.3 │ 3.6 │ 3.9 │ 3.10 │ 3.12 │ 3.14 │ 3.15 │ 3.16 │ 3.19 │ 4.0 │ 4.1 │ </br>
-│                          ┼</br>
+│                            ┼ │  │  │ │ │ │ │ │ │ │ │</br>
 high performance, NVMe 1.0 spec │  │  │ │ │ │ │ │ │ │ │</br>
 ├───────┼─┼─┼─┼─┼─┼─┼─┼─┼──┼──┼──┤</br>
 │	│ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │ √ │</br>
