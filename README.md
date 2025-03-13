@@ -28,69 +28,69 @@ Quick Reference Table: NVMe highlights and mainline kernel release support (*thr
 ![Chart](https://github.com/user-attachments/assets/de3435e2-b499-4cf7-9a9a-26551b5762d3)
 
 
-
-Feature/Kernel 	3.3 	3.6 	3.9 	3.10 	3.12 	3.14 	3.15 	3.16 	3.19 	4.0 	4.1 </br>
-high performance, NVMe 1.0 spec 	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-Greater than 512byte LBA 		
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	
-
-√
-	v 	
-
-√
-	
-
-√
-Discard/TRIM 			
+┌──────────────┬────────────────────────────────────────────────────────────────────────────────────┐</br>
+│Feature/Kernel 	3.3 	3.6 	3.9 	3.10 	3.12 	3.14 	3.15 	3.16 	3.19 	4.0 	4.1 </br>
+│high performance, NVMe 1.0 spec 	
+│	│
+│√	│
+├	┼	┤
+│	│
+│√	│
+│	│
+│	│
+│√	│
+│	│
+│	│
+│√
+│	│
+│	│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│Greater than 512byte LBA 		
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	
+│
+│√
+│	v 	
+│
+│√
+│	
+│
+│√
+│Discard/TRIM 			
 
 √
 	
@@ -236,6 +236,8 @@ Multipath NVMe
 DIF/DIX & Metadata, hot-cpu 											
 
 √
+
+└─── ┴ ───────┘
 
 It’s hard to document everything, and reading this table may be more than you need! If you want to view it differently we created this PDF slideshow for you here:
 
