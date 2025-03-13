@@ -1,6 +1,13 @@
 # Linux-NVMe-Kernel-support
 
 https://web.archive.org/web/20200807033507/https://itpeernetwork.intel.com/nvm-express-linux-driver-support-decoded/#gs.i7y08b
+https://backports.docs.kernel.org/releases.html
+https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/
+https://lwn.net/Articles/driver-porting/
+https://backports.docs.kernel.org/
+https://github.com/torvalds/linux/tags?after=v2.6.15-rc5
+
+---------------------------
 
 NVM Express has enjoyed Linux kernel support since early 2011. However, it is a complex landscape to understand all of the Linux Server OS and kernel choices, including when particular features have been adopted. This blog is intended to decode your options for NVMe on Linux.
 
