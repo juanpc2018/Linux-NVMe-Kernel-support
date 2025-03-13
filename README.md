@@ -103,22 +103,52 @@ Oracle Linux 7 Update 1 	March 2015 </br>
 Oracle Linux 6.7 	TBA 	TBA </br>
 Oracle Linux 7 Update 2 	TBA 	TBA </br>
 
+----------------------------
+
 Ubuntu: </br>
 Ubuntu has a process of providing Long Term Support releases,  </br>
-the most pertinent one being 14.04 (released in April 2014). </br>
-The three releases of 14.04, and their release date and included kernels,  </br>
-all of which support NVMe are shown in the following table. </br>
+Releases and their release date, included kernels  </br>
 ````
-┌───────────────────────────┬────────────────┬────────┐
-│ Ubuntu LTS Release:       │  Release date: │ Kernel │
-├───────────────────────────┼────────────────┼────────┤▒▒▒
-│ 14.04                     │     April 2014 │  3.13  │▒▒▒
-├───────────────────────────┼────────────────┼────────┤▒▒▒
-│ 14.04.1                   │      July 2014 │  3.13  │▒▒▒
-├───────────────────────────┼────────────────┼────────┤▒▒▒
-│ 14.04.2                   │  February 2015 │  3.16  │▒▒▒
-└───────────────────────────┴────────────────┴────────┘▒▒▒
-   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+┌─────────────┬──────────────────┬────────────────┬────────┐
+│ Version:    │ Code Name:       │  Release date: │ Kernel │
+├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
+10.04 LTS	Lucid Lynx	2010-04-29
+10.10	Maverick Meerkat	2010-10-10
+11.04	Natty Narwhal	2011-04-28
+11.10	Oneiric Ocelot	2011-10-13
+│ 12.04 LTS   │ Precise Pangolin │     2012-04-26 │        │▒▒▒
+│ 12.10       │ Quantal Quetzal  │     2012-10-18 │        │▒▒▒
+│ 13.04       │ Raring Ringtail  │     2013-04-25 │        │▒▒▒
+│ 13.10       │ Saucy Salamander │     2013-10-17 │        │▒▒▒
+│ 14.04 LTS   │ Trusty Tahr      │     April 2014 │  3.13  │▒▒▒
+├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
+│ 14.04.1     │                  │      July 2014 │   3.13 │▒▒▒
+├─────────────┼──────────────────┼────────────────┼────────┤▒▒▒
+│ 14.04.2     │                  │  February 2015 │   3.16 │▒▒▒
+│ 14.10       │ Utopic Unicorn   │ 2014-10-23     │   3.16 │▒▒▒
+15.04	Vivid Vervet	2015-04-23
+15.10	Wily Werewolf	2015-10-22
+16.04 LTS	Xenial Xerus	2016-04-21
+16.10	Yakkety Yak	2016-10-13
+17.04	Zesty Zapus	2017-04-13
+17.10	Artful Aardvark	2017-10-19
+18.04 LTS	Bionic Beaver	2018-04-26
+18.10	Cosmic Cuttlefish	2018-10-18
+19.04	Disco Dingo	2019-04-18
+19.10	Eoan Ermine	2019-10-17
+20.04 LTS	Focal Fossa	2020-04-23
+20.10	Groovy Gorilla	2020-10-22
+21.04	Hirsute Hippo	2021-04-22
+21.10	Impish Indri	2021-10-14
+22.04 LTS	Jammy Jellyfish	2022-04-21
+22.10	Kinetic Kudu	2022-10-20
+23.04	Lunar Lobster	2023-04-20
+23.10	Mantic Minotaur	2023-10-12
+24.04 LTS	Noble Numbat	2024-04-25
+24.10	Oracular Oriole	2024-10-10
+25.04	Plucky Puffin	2025-04-17
+└─────────────┴──────────────────┴────────────────┴────────┘▒▒▒
+   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ````
 [Ubuntu version history Table of versions](https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions)
 
